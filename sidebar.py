@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 
 
+st.header("Vaibhav borse")
 st.sidebar.title("Smartbyte Computer Education")
 st.sidebar.text_input("Mail address")
 st.sidebar.text_input("Password")
@@ -18,5 +19,5 @@ st.area_chart(data)
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
-st.header("Vaibhav borse")
+
 
