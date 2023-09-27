@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-
+st.ballons()
 st.header("Vaibhav Borse 😎")
 st.sidebar.title("Smartbyte Computer Education")
 st.sidebar.text_input("Mail address")
@@ -19,6 +19,5 @@ st.area_chart(data)
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
-st.ballons()
 
 
