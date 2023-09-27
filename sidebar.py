@@ -18,5 +18,5 @@ st.area_chart(data)
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
-st.help("How can i help you")
+
 
