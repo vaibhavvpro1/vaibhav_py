@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-
 #st.balloons()
 st.header("Vaibhav Borse 😎")
 st.sidebar.title("Smartbyte Computer Education")
