@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-matplotlib.use('Agg')
+
 
 #st.balloons()
 st.header("Vaibhav Borse 😎")
@@ -19,10 +17,6 @@ st.title("Line chart")
 st.line_chart(data)
 st.title("Area chart")
 st.area_chart(data)
-df.plot()
-plt.show()
-plt.savefig(sys.stdout.buffer)
-sys.stdout.flush()
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
