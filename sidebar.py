@@ -19,5 +19,5 @@ st.area_chart(data)
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
-
+st.set_page_config(page_title="VGS Adventure India 🇮🇳",page_icon="🇮🇳")
 
