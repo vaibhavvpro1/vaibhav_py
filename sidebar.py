@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+st.sidebar.set_page_config(page_title="VGS Adventure India",page_icon="🌎")
+
 #st.balloons()
 st.header("Vaibhav Borse 😎")
 st.sidebar.title("Smartbyte Computer Education")
@@ -19,5 +21,6 @@ st.area_chart(data)
 st.sidebar.file_uploader("Upload your file/folder")
 st.chat_input("Type here")
 st.status("Working")
-st.sidebar.set_page_config(page_title="VGS Adventure India 🇮🇳",page_icon="🇮🇳")
+
+
 
