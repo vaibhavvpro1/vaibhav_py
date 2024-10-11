@@ -4,7 +4,7 @@ import pandas as pd
 
 #st.balloons()
 st.header("Vaibhav Borse 😎")
-st.sidebar.title("Smartbyte Computer Education")
+st.sidebar.title("total Computer Education")
 st.sidebar.text_input("Mail address")
 st.sidebar.text_input("Password")
 st.sidebar.button('Submit')
